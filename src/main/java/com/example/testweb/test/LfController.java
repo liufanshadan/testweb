@@ -13,6 +13,7 @@ public class LfController {
         person.setAge(age);
         return person;
     }
+
     @RequestMapping("/demo2")
     public String  demo2(String str){
         return str;
