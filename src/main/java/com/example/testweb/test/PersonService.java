@@ -18,6 +18,7 @@ public interface PersonService {
     @WebMethod
     List<Person> getAllPersons();
 
+
     @WebMethod
     Person createPerson(@WebParam(name = "name")String name,@WebParam(name = "age")int age);
 
